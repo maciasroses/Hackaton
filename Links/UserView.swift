@@ -6,8 +6,8 @@ struct UserView: View {
 		List {
 			ForEach(UserViewModel.users) { user in
 				VStack {
-					Text(user.nombre) //concatenar con...
-					Text(user.apellidos)
+					Text(user.nombre + " " + user.apellidos)
+					Text()
 					Text(user.ciudad)
 					Text(user.peso)
 					Text(user.tipodesangre)
