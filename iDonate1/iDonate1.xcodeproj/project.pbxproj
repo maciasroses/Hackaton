@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4945758E28DFD77200C22511 /* iDonateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4945758D28DFD77200C22511 /* iDonateApp.swift */; };
-		4945759028DFD77200C22511 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4945758F28DFD77200C22511 /* ContentView.swift */; };
-		4945759228DFD77800C22511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4945759128DFD77800C22511 /* Assets.xcassets */; };
-		4945759528DFD77800C22511 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4945759428DFD77800C22511 /* Preview Assets.xcassets */; };
+		494575E428E01C7600C22511 /* iDonate1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494575E328E01C7600C22511 /* iDonate1App.swift */; };
+		494575E628E01C7600C22511 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494575E528E01C7600C22511 /* Home.swift */; };
+		494575E828E01C7C00C22511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494575E728E01C7C00C22511 /* Assets.xcassets */; };
+		494575EB28E01C7C00C22511 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494575EA28E01C7C00C22511 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4945758A28DFD77200C22511 /* iDonate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDonate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4945758D28DFD77200C22511 /* iDonateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDonateApp.swift; sourceTree = "<group>"; };
-		4945758F28DFD77200C22511 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4945759128DFD77800C22511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4945759428DFD77800C22511 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		494575E028E01C7600C22511 /* iDonate1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDonate1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		494575E328E01C7600C22511 /* iDonate1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDonate1App.swift; sourceTree = "<group>"; };
+		494575E528E01C7600C22511 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		494575E728E01C7C00C22511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		494575EA28E01C7C00C22511 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4945758728DFD77100C22511 /* Frameworks */ = {
+		494575DD28E01C7600C22511 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4945758128DFD77100C22511 = {
+		494575D728E01C7500C22511 = {
 			isa = PBXGroup;
 			children = (
-				4945758C28DFD77200C22511 /* iDonate */,
-				4945758B28DFD77200C22511 /* Products */,
+				494575E228E01C7600C22511 /* iDonate1 */,
+				494575E128E01C7600C22511 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4945758B28DFD77200C22511 /* Products */ = {
+		494575E128E01C7600C22511 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4945758A28DFD77200C22511 /* iDonate.app */,
+				494575E028E01C7600C22511 /* iDonate1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4945758C28DFD77200C22511 /* iDonate */ = {
+		494575E228E01C7600C22511 /* iDonate1 */ = {
 			isa = PBXGroup;
 			children = (
-				4945758D28DFD77200C22511 /* iDonateApp.swift */,
-				4945758F28DFD77200C22511 /* ContentView.swift */,
-				4945759128DFD77800C22511 /* Assets.xcassets */,
-				4945759328DFD77800C22511 /* Preview Content */,
+				494575E328E01C7600C22511 /* iDonate1App.swift */,
+				494575E528E01C7600C22511 /* Home.swift */,
+				494575E728E01C7C00C22511 /* Assets.xcassets */,
+				494575E928E01C7C00C22511 /* Preview Content */,
 			);
-			path = iDonate;
+			path = iDonate1;
 			sourceTree = "<group>";
 		};
-		4945759328DFD77800C22511 /* Preview Content */ = {
+		494575E928E01C7C00C22511 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				4945759428DFD77800C22511 /* Preview Assets.xcassets */,
+				494575EA28E01C7C00C22511 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4945758928DFD77100C22511 /* iDonate */ = {
+		494575DF28E01C7600C22511 /* iDonate1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4945759828DFD77800C22511 /* Build configuration list for PBXNativeTarget "iDonate" */;
+			buildConfigurationList = 494575EE28E01C7C00C22511 /* Build configuration list for PBXNativeTarget "iDonate1" */;
 			buildPhases = (
-				4945758628DFD77100C22511 /* Sources */,
-				4945758728DFD77100C22511 /* Frameworks */,
-				4945758828DFD77100C22511 /* Resources */,
+				494575DC28E01C7600C22511 /* Sources */,
+				494575DD28E01C7600C22511 /* Frameworks */,
+				494575DE28E01C7600C22511 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = iDonate;
-			productName = iDonate;
-			productReference = 4945758A28DFD77200C22511 /* iDonate.app */;
+			name = iDonate1;
+			productName = iDonate1;
+			productReference = 494575E028E01C7600C22511 /* iDonate1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4945758228DFD77100C22511 /* Project object */ = {
+		494575D828E01C7500C22511 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					4945758928DFD77100C22511 = {
+					494575DF28E01C7600C22511 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 4945758528DFD77100C22511 /* Build configuration list for PBXProject "iDonate" */;
+			buildConfigurationList = 494575DB28E01C7500C22511 /* Build configuration list for PBXProject "iDonate1" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 4945758128DFD77100C22511;
-			productRefGroup = 4945758B28DFD77200C22511 /* Products */;
+			mainGroup = 494575D728E01C7500C22511;
+			productRefGroup = 494575E128E01C7600C22511 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4945758928DFD77100C22511 /* iDonate */,
+				494575DF28E01C7600C22511 /* iDonate1 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4945758828DFD77100C22511 /* Resources */ = {
+		494575DE28E01C7600C22511 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4945759528DFD77800C22511 /* Preview Assets.xcassets in Resources */,
-				4945759228DFD77800C22511 /* Assets.xcassets in Resources */,
+				494575EB28E01C7C00C22511 /* Preview Assets.xcassets in Resources */,
+				494575E828E01C7C00C22511 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4945758628DFD77100C22511 /* Sources */ = {
+		494575DC28E01C7600C22511 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4945759028DFD77200C22511 /* ContentView.swift in Sources */,
-				4945758E28DFD77200C22511 /* iDonateApp.swift in Sources */,
+				494575E628E01C7600C22511 /* Home.swift in Sources */,
+				494575E428E01C7600C22511 /* iDonate1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4945759628DFD77800C22511 /* Debug */ = {
+		494575EC28E01C7C00C22511 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,7 +206,7 @@
 			};
 			name = Debug;
 		};
-		4945759728DFD77800C22511 /* Release */ = {
+		494575ED28E01C7C00C22511 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,14 +261,14 @@
 			};
 			name = Release;
 		};
-		4945759928DFD77800C22511 /* Debug */ = {
+		494575EF28E01C7C00C22511 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iDonate/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iDonate1/Preview Content\"";
 				DEVELOPMENT_TEAM = JQ5W6PUYV3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -282,7 +282,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = A01284297.iDonate;
+				PRODUCT_BUNDLE_IDENTIFIER = A01284297.iDonate1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -290,14 +290,14 @@
 			};
 			name = Debug;
 		};
-		4945759A28DFD77800C22511 /* Release */ = {
+		494575F028E01C7C00C22511 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"iDonate/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"iDonate1/Preview Content\"";
 				DEVELOPMENT_TEAM = JQ5W6PUYV3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -311,7 +311,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = A01284297.iDonate;
+				PRODUCT_BUNDLE_IDENTIFIER = A01284297.iDonate1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,25 +322,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4945758528DFD77100C22511 /* Build configuration list for PBXProject "iDonate" */ = {
+		494575DB28E01C7500C22511 /* Build configuration list for PBXProject "iDonate1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4945759628DFD77800C22511 /* Debug */,
-				4945759728DFD77800C22511 /* Release */,
+				494575EC28E01C7C00C22511 /* Debug */,
+				494575ED28E01C7C00C22511 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4945759828DFD77800C22511 /* Build configuration list for PBXNativeTarget "iDonate" */ = {
+		494575EE28E01C7C00C22511 /* Build configuration list for PBXNativeTarget "iDonate1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4945759928DFD77800C22511 /* Debug */,
-				4945759A28DFD77800C22511 /* Release */,
+				494575EF28E01C7C00C22511 /* Debug */,
+				494575F028E01C7C00C22511 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4945758228DFD77100C22511 /* Project object */;
+	rootObject = 494575D828E01C7500C22511 /* Project object */;
 }
