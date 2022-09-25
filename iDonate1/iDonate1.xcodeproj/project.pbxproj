@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4916C33328E02E5C007F933A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4916C33228E02E5C007F933A /* HomeView.swift */; };
+		4916C33528E05F86007F933A /* Beneficios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4916C33428E05F86007F933A /* Beneficios.swift */; };
 		494575E428E01C7600C22511 /* iDonate1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494575E328E01C7600C22511 /* iDonate1App.swift */; };
 		494575E628E01C7600C22511 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494575E528E01C7600C22511 /* Home.swift */; };
 		494575E828E01C7C00C22511 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494575E728E01C7C00C22511 /* Assets.xcassets */; };
 		494575EB28E01C7C00C22511 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 494575EA28E01C7C00C22511 /* Preview Assets.xcassets */; };
+		494575F228E0247100C22511 /* Registr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 494575F128E0247100C22511 /* Registr.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4916C33228E02E5C007F933A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4916C33428E05F86007F933A /* Beneficios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beneficios.swift; sourceTree = "<group>"; };
 		494575E028E01C7600C22511 /* iDonate1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDonate1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		494575E328E01C7600C22511 /* iDonate1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDonate1App.swift; sourceTree = "<group>"; };
 		494575E528E01C7600C22511 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		494575E728E01C7C00C22511 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		494575EA28E01C7C00C22511 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		494575F128E0247100C22511 /* Registr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registr.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				494575E328E01C7600C22511 /* iDonate1App.swift */,
 				494575E528E01C7600C22511 /* Home.swift */,
+				4916C33228E02E5C007F933A /* HomeView.swift */,
+				4916C33428E05F86007F933A /* Beneficios.swift */,
+				494575F128E0247100C22511 /* Registr.swift */,
 				494575E728E01C7C00C22511 /* Assets.xcassets */,
 				494575E928E01C7C00C22511 /* Preview Content */,
 			);
@@ -137,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				494575F228E0247100C22511 /* Registr.swift in Sources */,
+				4916C33328E02E5C007F933A /* HomeView.swift in Sources */,
+				4916C33528E05F86007F933A /* Beneficios.swift in Sources */,
 				494575E628E01C7600C22511 /* Home.swift in Sources */,
 				494575E428E01C7600C22511 /* iDonate1App.swift in Sources */,
 			);
