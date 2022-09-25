@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB39963C28E0A589009ABADD /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB39963A28E0A589009ABADD /* UserRepository.swift */; };
+		DB39963D28E0A589009ABADD /* UserDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB39963B28E0A589009ABADD /* UserDatasource.swift */; };
+		DB9FB62B28E0326D007D049A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9FB62A28E0326D007D049A /* ContentView.swift */; };
+		DB9FB62D28E0326E007D049A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9FB62C28E0326E007D049A /* Assets.xcassets */; };
+		DB9FB63028E0326E007D049A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9FB62F28E0326E007D049A /* Preview Assets.xcassets */; };
+		DB9FB63A28E0326F007D049A /* pruebapanchitoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9FB63928E0326F007D049A /* pruebapanchitoTests.swift */; };
+		DB9FB64428E0326F007D049A /* pruebapanchitoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9FB64328E0326F007D049A /* pruebapanchitoUITests.swift */; };
+		DB9FB64628E0326F007D049A /* pruebapanchitoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9FB64528E0326F007D049A /* pruebapanchitoUITestsLaunchTests.swift */; };
+		DB9FB65728E0375D007D049A /* Registro.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9FB65628E0375D007D049A /* Registro.swift */; };
+		DB9FB65928E061FB007D049A /* Solicitudes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9FB65828E061FB007D049A /* Solicitudes.swift */; };
+		DB9FB65D28E06BCB007D049A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB9FB65C28E06BCB007D049A /* GoogleService-Info.plist */; };
+		DB9FB66028E06F79007D049A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = DB9FB65F28E06F79007D049A /* FirebaseFirestore */; };
+		DB9FB66228E06F79007D049A /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DB9FB66128E06F79007D049A /* FirebaseFirestoreSwift */; };
+		DB9FB66828E076B3007D049A /* pruebapanchitoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9FB66728E076B3007D049A /* pruebapanchitoApp.swift */; };
+		DBDDC34C28E0806E00FE89D5 /* Perfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDDC34928E0806E00FE89D5 /* Perfil.swift */; };
+		DBDDC34D28E0806E00FE89D5 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDDC34A28E0806E00FE89D5 /* UserViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB9FB63628E0326F007D049A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB9FB61D28E0326D007D049A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB9FB62428E0326D007D049A;
+			remoteInfo = pruebapanchito;
+		};
+		DB9FB64028E0326F007D049A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB9FB61D28E0326D007D049A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB9FB62428E0326D007D049A;
+			remoteInfo = pruebapanchito;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB39963A28E0A589009ABADD /* UserRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserRepository.swift; path = ../../../.Trash/Repository/UserRepository.swift; sourceTree = "<group>"; };
+		DB39963B28E0A589009ABADD /* UserDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserDatasource.swift; path = ../../../.Trash/Repository/UserDatasource.swift; sourceTree = "<group>"; };
+		DB9FB62528E0326D007D049A /* pruebapanchito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pruebapanchito.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9FB62A28E0326D007D049A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB9FB62C28E0326E007D049A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB9FB62F28E0326E007D049A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB9FB63528E0326F007D049A /* pruebapanchitoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pruebapanchitoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9FB63928E0326F007D049A /* pruebapanchitoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pruebapanchitoTests.swift; sourceTree = "<group>"; };
+		DB9FB63F28E0326F007D049A /* pruebapanchitoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pruebapanchitoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9FB64328E0326F007D049A /* pruebapanchitoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pruebapanchitoUITests.swift; sourceTree = "<group>"; };
+		DB9FB64528E0326F007D049A /* pruebapanchitoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pruebapanchitoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DB9FB65628E0375D007D049A /* Registro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registro.swift; sourceTree = "<group>"; };
+		DB9FB65828E061FB007D049A /* Solicitudes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solicitudes.swift; sourceTree = "<group>"; };
+		DB9FB65C28E06BCB007D049A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DB9FB66728E076B3007D049A /* pruebapanchitoApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pruebapanchitoApp.swift; sourceTree = "<group>"; };
+		DBDDC34928E0806E00FE89D5 /* Perfil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Perfil.swift; path = ../../../.Trash/Links/Perfil.swift; sourceTree = "<group>"; };
+		DBDDC34A28E0806E00FE89D5 /* UserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserViewModel.swift; path = ../../../.Trash/Links/UserViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB9FB62228E0326D007D049A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9FB66028E06F79007D049A /* FirebaseFirestore in Frameworks */,
+				DB9FB66228E06F79007D049A /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9FB63228E0326F007D049A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9FB63C28E0326F007D049A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB9FB61C28E0326D007D049A = {
+			isa = PBXGroup;
+			children = (
+				DB9FB62728E0326D007D049A /* pruebapanchito */,
+				DB9FB63828E0326F007D049A /* pruebapanchitoTests */,
+				DB9FB64228E0326F007D049A /* pruebapanchitoUITests */,
+				DB9FB62628E0326D007D049A /* Products */,
+				DB9FB65B28E06963007D049A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB9FB62628E0326D007D049A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB9FB62528E0326D007D049A /* pruebapanchito.app */,
+				DB9FB63528E0326F007D049A /* pruebapanchitoTests.xctest */,
+				DB9FB63F28E0326F007D049A /* pruebapanchitoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB9FB62728E0326D007D049A /* pruebapanchito */ = {
+			isa = PBXGroup;
+			children = (
+				DB39963B28E0A589009ABADD /* UserDatasource.swift */,
+				DB39963A28E0A589009ABADD /* UserRepository.swift */,
+				DBDDC34928E0806E00FE89D5 /* Perfil.swift */,
+				DBDDC34A28E0806E00FE89D5 /* UserViewModel.swift */,
+				DB9FB66728E076B3007D049A /* pruebapanchitoApp.swift */,
+				DB9FB65C28E06BCB007D049A /* GoogleService-Info.plist */,
+				DB9FB65628E0375D007D049A /* Registro.swift */,
+				DB9FB62A28E0326D007D049A /* ContentView.swift */,
+				DB9FB62C28E0326E007D049A /* Assets.xcassets */,
+				DB9FB62E28E0326E007D049A /* Preview Content */,
+				DB9FB65828E061FB007D049A /* Solicitudes.swift */,
+			);
+			path = pruebapanchito;
+			sourceTree = "<group>";
+		};
+		DB9FB62E28E0326E007D049A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB9FB62F28E0326E007D049A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB9FB63828E0326F007D049A /* pruebapanchitoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB9FB63928E0326F007D049A /* pruebapanchitoTests.swift */,
+			);
+			path = pruebapanchitoTests;
+			sourceTree = "<group>";
+		};
+		DB9FB64228E0326F007D049A /* pruebapanchitoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB9FB64328E0326F007D049A /* pruebapanchitoUITests.swift */,
+				DB9FB64528E0326F007D049A /* pruebapanchitoUITestsLaunchTests.swift */,
+			);
+			path = pruebapanchitoUITests;
+			sourceTree = "<group>";
+		};
+		DB9FB65B28E06963007D049A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB9FB62428E0326D007D049A /* pruebapanchito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9FB64928E0326F007D049A /* Build configuration list for PBXNativeTarget "pruebapanchito" */;
+			buildPhases = (
+				DB9FB62128E0326D007D049A /* Sources */,
+				DB9FB62228E0326D007D049A /* Frameworks */,
+				DB9FB62328E0326D007D049A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pruebapanchito;
+			packageProductDependencies = (
+				DB9FB65F28E06F79007D049A /* FirebaseFirestore */,
+				DB9FB66128E06F79007D049A /* FirebaseFirestoreSwift */,
+			);
+			productName = pruebapanchito;
+			productReference = DB9FB62528E0326D007D049A /* pruebapanchito.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB9FB63428E0326F007D049A /* pruebapanchitoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9FB64C28E0326F007D049A /* Build configuration list for PBXNativeTarget "pruebapanchitoTests" */;
+			buildPhases = (
+				DB9FB63128E0326F007D049A /* Sources */,
+				DB9FB63228E0326F007D049A /* Frameworks */,
+				DB9FB63328E0326F007D049A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB9FB63728E0326F007D049A /* PBXTargetDependency */,
+			);
+			name = pruebapanchitoTests;
+			productName = pruebapanchitoTests;
+			productReference = DB9FB63528E0326F007D049A /* pruebapanchitoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB9FB63E28E0326F007D049A /* pruebapanchitoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9FB64F28E0326F007D049A /* Build configuration list for PBXNativeTarget "pruebapanchitoUITests" */;
+			buildPhases = (
+				DB9FB63B28E0326F007D049A /* Sources */,
+				DB9FB63C28E0326F007D049A /* Frameworks */,
+				DB9FB63D28E0326F007D049A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB9FB64128E0326F007D049A /* PBXTargetDependency */,
+			);
+			name = pruebapanchitoUITests;
+			productName = pruebapanchitoUITests;
+			productReference = DB9FB63F28E0326F007D049A /* pruebapanchitoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB9FB61D28E0326D007D049A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					DB9FB62428E0326D007D049A = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					DB9FB63428E0326F007D049A = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = DB9FB62428E0326D007D049A;
+					};
+					DB9FB63E28E0326F007D049A = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = DB9FB62428E0326D007D049A;
+					};
+				};
+			};
+			buildConfigurationList = DB9FB62028E0326D007D049A /* Build configuration list for PBXProject "pruebapanchito" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB9FB61C28E0326D007D049A;
+			packageReferences = (
+				DB9FB65E28E06F79007D049A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = DB9FB62628E0326D007D049A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB9FB62428E0326D007D049A /* pruebapanchito */,
+				DB9FB63428E0326F007D049A /* pruebapanchitoTests */,
+				DB9FB63E28E0326F007D049A /* pruebapanchitoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB9FB62328E0326D007D049A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9FB63028E0326E007D049A /* Preview Assets.xcassets in Resources */,
+				DB9FB62D28E0326E007D049A /* Assets.xcassets in Resources */,
+				DB9FB65D28E06BCB007D049A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9FB63328E0326F007D049A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9FB63D28E0326F007D049A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB9FB62128E0326D007D049A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9FB66828E076B3007D049A /* pruebapanchitoApp.swift in Sources */,
+				DB39963D28E0A589009ABADD /* UserDatasource.swift in Sources */,
+				DBDDC34D28E0806E00FE89D5 /* UserViewModel.swift in Sources */,
+				DBDDC34C28E0806E00FE89D5 /* Perfil.swift in Sources */,
+				DB39963C28E0A589009ABADD /* UserRepository.swift in Sources */,
+				DB9FB65728E0375D007D049A /* Registro.swift in Sources */,
+				DB9FB62B28E0326D007D049A /* ContentView.swift in Sources */,
+				DB9FB65928E061FB007D049A /* Solicitudes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9FB63128E0326F007D049A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9FB63A28E0326F007D049A /* pruebapanchitoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9FB63B28E0326F007D049A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9FB64428E0326F007D049A /* pruebapanchitoUITests.swift in Sources */,
+				DB9FB64628E0326F007D049A /* pruebapanchitoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB9FB63728E0326F007D049A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB9FB62428E0326D007D049A /* pruebapanchito */;
+			targetProxy = DB9FB63628E0326F007D049A /* PBXContainerItemProxy */;
+		};
+		DB9FB64128E0326F007D049A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB9FB62428E0326D007D049A /* pruebapanchito */;
+			targetProxy = DB9FB64028E0326F007D049A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DB9FB64728E0326F007D049A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB9FB64828E0326F007D049A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB9FB64A28E0326F007D049A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pruebapanchito/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pruebapanchito.pruebapanchito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB9FB64B28E0326F007D049A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pruebapanchito/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pruebapanchito.pruebapanchito;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB9FB64D28E0326F007D049A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pruebapanchito.pruebapanchitoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pruebapanchito.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pruebapanchito";
+			};
+			name = Debug;
+		};
+		DB9FB64E28E0326F007D049A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pruebapanchito.pruebapanchitoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pruebapanchito.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pruebapanchito";
+			};
+			name = Release;
+		};
+		DB9FB65028E0326F007D049A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pruebapanchito.pruebapanchitoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pruebapanchito;
+			};
+			name = Debug;
+		};
+		DB9FB65128E0326F007D049A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pruebapanchito.pruebapanchitoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pruebapanchito;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB9FB62028E0326D007D049A /* Build configuration list for PBXProject "pruebapanchito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9FB64728E0326F007D049A /* Debug */,
+				DB9FB64828E0326F007D049A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9FB64928E0326F007D049A /* Build configuration list for PBXNativeTarget "pruebapanchito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9FB64A28E0326F007D049A /* Debug */,
+				DB9FB64B28E0326F007D049A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9FB64C28E0326F007D049A /* Build configuration list for PBXNativeTarget "pruebapanchitoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9FB64D28E0326F007D049A /* Debug */,
+				DB9FB64E28E0326F007D049A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9FB64F28E0326F007D049A /* Build configuration list for PBXNativeTarget "pruebapanchitoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9FB65028E0326F007D049A /* Debug */,
+				DB9FB65128E0326F007D049A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DB9FB65E28E06F79007D049A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DB9FB65F28E06F79007D049A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB9FB65E28E06F79007D049A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		DB9FB66128E06F79007D049A /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DB9FB65E28E06F79007D049A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DB9FB61D28E0326D007D049A /* Project object */;
+}
